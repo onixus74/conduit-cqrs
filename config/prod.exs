@@ -65,7 +65,7 @@ config :conduit, Conduit.EventStore,
   username: "postgres",
   password: "postgres",
   database: "conduit_eventstore_prod",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 10
 
 # Configures the read store database
@@ -74,7 +74,7 @@ config :conduit, Conduit.Repo,
   username: "postgres",
   password: "postgres",
   database: "conduit_readstore_prod",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 15
 
 # Finally import the config/prod.secret.exs

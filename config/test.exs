@@ -18,7 +18,7 @@ config :conduit, Conduit.EventStore,
   username: "postgres",
   password: "postgres",
   database: "conduit_eventstore_test",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 1
 
 # Configures the read store database
@@ -27,7 +27,7 @@ config :conduit, Conduit.Repo,
   username: "postgres",
   password: "postgres",
   database: "conduit_readstore_test",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 1
 
 config :bcrypt_elixir, :log_rounds, 4

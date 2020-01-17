@@ -36,10 +36,11 @@ defmodule Conduit.Mixfile do
       {:ex_machina, "~> 2.1", only: :test},
       {:gettext, "~> 0.11"},
       {:guardian, "~> 1.2"},
-      {:jason, "~> 1.1"},
+      {:jason, "~> 1.1.2"},
       {:mix_test_watch, "~> 0.5", only: :dev, runtime: false},
       {:phoenix, "~> 1.4"},
       {:phoenix_ecto, "~> 4.0"},
+      {:phoenix_html, "~> 2.11"},
       {:postgrex, ">= 0.0.0"},
       {:slugger, "~> 0.2"},
       {:vex, "~> 0.6"}

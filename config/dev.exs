@@ -7,7 +7,7 @@ use Mix.Config
 # watchers to your application. For example, we use it
 # with brunch.io to recompile .js and .css sources.
 config :conduit, ConduitWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: 4900],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
@@ -42,7 +42,7 @@ config :conduit, Conduit.EventStore,
   username: "postgres",
   password: "postgres",
   database: "conduit_eventstore_dev",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 10
 
 # Configures the read store database
@@ -51,5 +51,5 @@ config :conduit, Conduit.Repo,
   username: "postgres",
   password: "postgres",
   database: "conduit_readstore_dev",
-  hostname: "localhost",
+  hostname: "10.152.183.228",
   pool_size: 10
